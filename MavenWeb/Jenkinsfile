@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage ("--Clean Project---") {
 			steps {
-				bat "cd MavenWeb\\pom.xml"
+				bat "cd \\MavenWeb\\pom.xml"
 				bat "mvn clean"
 			}
 		}

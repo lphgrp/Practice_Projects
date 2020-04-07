@@ -4,7 +4,7 @@ pipeline {
 		stage ("--Clean Project---") {
 			steps {
 				bat "cd C:\\Users\\Pankaj\\.jenkins\\workspace\\Project_PipeLine_Maven\\MavenWeb"
-				bat "mvn clean"
+				bat "mvn clean install"
 			}
 		}
 		stage ("--Create WarFile---") {

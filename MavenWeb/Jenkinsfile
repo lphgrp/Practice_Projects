@@ -3,6 +3,7 @@ pipeline {
 	stages {
 		stage ("--Clean Project---") {
 			steps {
+				bat "cd C:\\Users\\Pankaj\\.jenkins\\workspace\\Project_PipeLine_Maven\\MavenWeb"
 				bat "mvn clean"
 			}
 		}
